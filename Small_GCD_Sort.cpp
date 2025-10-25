@@ -2,9 +2,8 @@
 using namespace std;
 
 bool cmp(pair<int, int> x, pair<int, int> y){
-   if(x.first != y.first) 
-        return x.first > y.first; 
-    return x.second < y.second;  
+   if(x.first == y.first) 
+      return x.second < y.second;  
 }
 int main(){
    ios::sync_with_stdio(false);
