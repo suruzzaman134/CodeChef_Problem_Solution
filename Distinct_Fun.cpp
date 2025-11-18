@@ -8,8 +8,8 @@ typedef vector<int> vi;
 #define vec_in(v) for(int i = 0; i < v.size(); ++i) cin >> v[i];
 #define vec_out(v) for(int i = 0; i < v.size(); ++i) cout << v[i] << " ";
 
-void aditya46raj() {
-    // Let's Go Aditya you can do it
+void solve() {
+   
     int ans=0;
     int n;cin>>n;
     vi arr(n);
@@ -37,7 +37,7 @@ int32_t main() {
     cin >> tc;
 
     while (tc--) {
-        aditya46raj();
+        solve();
     }
     return 0;
 }
