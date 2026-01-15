@@ -1,4 +1,4 @@
-// Problem Link : https://www.codechef.com/problems/GRIDMEX
+// Problem Link : https://www.codechef.com/problems/P4HOME
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -21,15 +21,12 @@ int32_t main()
    cin >> t;
    while (t--)
    {
-      int n;
-      cin >> n;
-      for (int i = 0; i < n; i++)
-      {
-         for (int j = 0; j < n; j++)
-            cout << (i + j) % n << " ";
-         if(i != n - 1) cout << "\n";
-      }
-      cout << "\n";
+      int x, y, z;
+      cin >> x >> y >> z;
+      if (z > y)
+         cout << y * 2 << "\n";
+      else
+         cout << z * 2 << "\n";
    }
 
    return 0;
