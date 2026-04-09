@@ -1,3 +1,4 @@
+// Problem Link : https://www.codechef.com/problems/MOVIE7
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,6 +14,18 @@ int32_t main(){
    ios::sync_with_stdio(false);
    cin.tie(nullptr);
 
+   int t; cin >> t;
+   while (t--)
+   {
+      int n, m, a, b, c; cin >> n >> m >> a >> b >> c;
+      int cst = min(n, m) * c;
+      if(n > m){
+         cst += (n - m) * a;
+      }else if(m > n){
+         cst += (m - n) * b;
+      }
+      cout << cst << endl;
+   }
    
 
    return 0;

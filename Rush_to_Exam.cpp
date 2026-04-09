@@ -1,3 +1,4 @@
+// Problem Link : https://www.codechef.com/problems/RUSHTOEXAM
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,7 +14,8 @@ int32_t main(){
    ios::sync_with_stdio(false);
    cin.tie(nullptr);
 
-   
+   int n, m, a; cin >> n >> m >> a;
+   if(n * a >= m)
 
    return 0;
 }

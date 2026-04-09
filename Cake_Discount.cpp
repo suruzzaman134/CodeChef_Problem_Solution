@@ -1,3 +1,4 @@
+// Problem Link : https://www.codechef.com/problems/DISCOUNT7
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,7 +14,9 @@ int32_t main(){
    ios::sync_with_stdio(false);
    cin.tie(nullptr);
 
-   
+   int n; cin >> n;
+   if(n >= 5) cout << n * 85;
+   else cout << n * 100;
 
    return 0;
 }
